@@ -19,5 +19,5 @@ class LocatorsFormPage:
     direccion_placeholder = (By.ID, ':rc:-form-item') # send_keys
     indicativo_dropdown = (By.ID, 'prefix1') # click
     indicativo_col = (By.CSS_SELECTOR, '#prefix1 > option:nth-child(2)') # click()
-    telefono_1_placeholder = (By.XPATH, '/html/body/div[1]/div/form/section[3]/div[2]/div[6]/input') # send_keys
+    telefono_1_placeholder = (By.CLASS_NAME, 'text-[0.8rem] font-medium text-destructive') # send_keys
     boton_enviar = (By.XPATH, '//*[@id="root"]/div/form/button')
