@@ -25,10 +25,6 @@ Pasos para ejecutar las pruebas:
 
 - Desde PyCharm: Busca e instala pytest y selenium en la pestaña Python Packages.
 
-Clonar el repositorio:
-
-git clone <URL del repositorio>
-cd <nombre del repositorio>
 
 Ejecutar las pruebas:
 
