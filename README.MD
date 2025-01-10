@@ -1,6 +1,6 @@
 # Proyecto Formulario de Solicitud Médica
 
-***~Elaborado por Santiago Sánchez Ospina~***
+***Elaborado por Santiago Sánchez Ospina***
 
 Este proyecto tiene como propósito desarrollar una solución de automatización empleando Selenium y Pytest, herramientas clave para la verificación funcional de aplicaciones web. El objetivo principal es automatizar las pruebas de validación y envío de un formulario médico en la plataforma, asegurando su correcta funcionalidad y cumplimiento de los criterios de aceptación establecidos.
 Sobre la aplicación
