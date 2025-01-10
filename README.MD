@@ -1,4 +1,4 @@
-# Proyecto Formulario de Solicitud Médica
+# Proyecto Formulario de Solicitud Médica - Frontend
 
 ***Elaborado por Santiago Sánchez Ospina***
 
