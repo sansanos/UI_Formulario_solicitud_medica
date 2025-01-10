@@ -3,9 +3,11 @@
 ***Elaborado por Santiago Sánchez Ospina***
 
 Este proyecto tiene como propósito desarrollar una solución de automatización empleando Selenium y Pytest, herramientas clave para la verificación funcional de aplicaciones web. El objetivo principal es automatizar las pruebas de validación y envío de un formulario médico en la plataforma, asegurando su correcta funcionalidad y cumplimiento de los criterios de aceptación establecidos.
+
 Sobre la aplicación
 
 El formulario de solicitud médica permite a los usuarios (pacientes) ingresar información personal, datos del médico remitente y detalles de la prueba médica que desean realizar. Este flujo garantiza que los datos enviados al laboratorio sean validados y procesados adecuadamente.
+
 Proceso
 
 Este proyecto utiliza el patrón de diseño POM (Page Object Model) para estructurar y organizar el código de prueba. Este enfoque divide las responsabilidades en diferentes componentes:
@@ -18,7 +20,8 @@ Este proyecto utiliza el patrón de diseño POM (Page Object Model) para estruct
 Pasos para ejecutar las pruebas:
 
 - Instalar las dependencias necesarias:
-        Usando la terminal:
+
+Usando la terminal:
 
     pip install pytest
     pip install selenium
@@ -28,12 +31,12 @@ Pasos para ejecutar las pruebas:
 
 Ejecutar las pruebas:
 
-- pytest test_cases.py
+    pytest test_cases.py
 
 Campos obligatorios en el formulario:
 
 - Pruebas a solicitar (mínimo una selección).
-- Patología (una selección).
+- Patología (una y varias selecciones).
 - Consentimiento informado (checkbox obligatorio).
 - País, ciudad e institución médica.
 - Información del paciente: nombre, apellidos, dirección, DNI.
