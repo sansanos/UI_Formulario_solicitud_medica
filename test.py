@@ -61,9 +61,7 @@ class TestFormPage:
     # 13 - Dar clic en Enviar
     def test_boton_enviar(self):
         FormPage(self.driver).click_boton_enviar()
-        time.sleep(3)
 
     # 14 - Cerrar navegador
-    @classmethod
-    def teardown_class(cls):
-        cls.driver.quit()
+    def test_cerrar_navegador(self):
+        self.driver.quit()
