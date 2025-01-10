@@ -1,12 +1,6 @@
 import time
-import pytest
 import data
-import locators
-import methods
 from selenium import webdriver
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
-
 from methods import FormPage
 
 
