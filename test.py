@@ -6,7 +6,7 @@ from methods import FormPage
 
 class TestFormPage:
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     driver.maximize_window()
 
     # 1 - Configurar Patologia
