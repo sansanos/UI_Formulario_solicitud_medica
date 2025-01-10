@@ -1,0 +1,8 @@
+URL = 'https://dev.iqviatech.com/technical-qa/'
+ciudad = 'Medellin'
+nombres = 'Jorge'
+apellidos = 'Toro Agudelo'
+dni = '0123456789'
+direccion = 'Calle 33sur #32 - 29'
+indicativo_telefono = '+57'
+telefono_1 = '3131234567'
