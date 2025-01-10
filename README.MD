@@ -15,7 +15,7 @@ Este proyecto utiliza el patrón de diseño POM (Page Object Model) para estruct
 - Métodos: Definición de las funciones para realizar las acciones de prueba.
 - Pruebas: Ejecución de casos de prueba diseñados para validar el flujo de envío del formulario.
 
-Pasos para ejecutar las pruebas
+Pasos para ejecutar las pruebas:
 
 - Instalar las dependencias necesarias:
         Usando la terminal:
@@ -23,7 +23,7 @@ Pasos para ejecutar las pruebas
     pip install pytest
     pip install selenium
 
-    Desde PyCharm: Busca e instala pytest y selenium en la pestaña Python Packages.
+- Desde PyCharm: Busca e instala pytest y selenium en la pestaña Python Packages.
 
 Clonar el repositorio:
 
@@ -34,7 +34,7 @@ Ejecutar las pruebas:
 
 - pytest test_cases.py
 
-Campos obligatorios en el formulario
+Campos obligatorios en el formulario:
 
 - Pruebas a solicitar (mínimo una selección).
 - Patología (una selección).
@@ -43,7 +43,7 @@ Campos obligatorios en el formulario
 - Información del paciente: nombre, apellidos, dirección, DNI.
 - Teléfono principal con prefijo.
 
-Solicitudes requeridas
+Solicitudes requeridas:
 
 - Seleccionar las pruebas a realizar.
 - Configurar la patología.
@@ -52,7 +52,7 @@ Solicitudes requeridas
 - Ingresar datos del paciente (nombre, apellidos, dirección, DNI, teléfono).
 - Validar mensajes de error o éxito según el flujo.
 
-Tecnologías
+***Tecnologías***
 
 El proyecto fue desarrollado utilizando:
 
