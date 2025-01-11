@@ -18,7 +18,7 @@ class FormPage:
 
     def set_prueba(self):
         self.driver.find_element(*locators.LocatorsFormPage.prueba_dropdown).click()
-        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(
+        WebDriverWait(self.driver, 5).until(expected_conditions.element_to_be_clickable(
             locators.LocatorsFormPage.prueba_1))
         self.driver.find_element(*locators.LocatorsFormPage.prueba_1).click()
 

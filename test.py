@@ -1,6 +1,5 @@
 import data
 from selenium import webdriver
-
 import locators
 from methods import FormPage
 
@@ -16,9 +15,9 @@ class TestFormPage:
         FormPage(self.driver).set_patologia()
         assert self.driver.find_element(*locators.LocatorsFormPage.patologia_linfoma).is_displayed() == True
 
-    '''# 2 - Configurar Prueba
+    # 2 - Configurar Prueba
     def test_set_prueba(self):
-        FormPage(self.driver).set_prueba()'''
+        FormPage(self.driver).set_prueba()
 
     # 3 - Configurar Consentimiento
     def test_set_consentimiento(self):

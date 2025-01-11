@@ -5,7 +5,7 @@ class LocatorsFormPage:
     patologia_dropdown = (By.ID, 'pathology') # click()
     patologia_linfoma = (By.CSS_SELECTOR, '#pathology > option:nth-child(6)') # click
     prueba_dropdown = (By.XPATH, '//*[@id="root"]/div/form/section[1]/div[2]/div[2]/div/div[1]') # click ()
-    prueba_1 = (By.XPATH, '') # click
+    prueba_1 = (By.XPATH, '//*[@id="root"]/div/form/section[1]/div[2]/div[2]/div/div[1]/div/div') # click
     consentimiento_dropdown = (By.ID, 'consent') # clcik
     consentimiento_si = (By.XPATH, '//*[@id="consent"]/option[2]') # clcik
     pais_dropdown = (By.ID, 'country') # clcik
