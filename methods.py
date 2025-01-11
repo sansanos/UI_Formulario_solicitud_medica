@@ -68,4 +68,5 @@ class FormPage:
         self.driver.find_element(*locators.LocatorsFormPage.telefono_1_placeholder).send_keys(telefono_1)
 
     def click_boton_enviar(self):
+        WebDriverWait(self.driver, 10).until(expected_conditions.element_to_be_clickable(locators.LocatorsFormPage.boton_enviar))
         self.driver.find_element(*locators.LocatorsFormPage.boton_enviar).click()
