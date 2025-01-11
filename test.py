@@ -61,7 +61,6 @@ class TestFormPage:
     def test_boton_enviar(self):
         FormPage(self.driver).click_boton_enviar()
 
-
     # 14 - Cerrar navegador
     def test_cerrar_navegador(self):
         self.driver.quit()
