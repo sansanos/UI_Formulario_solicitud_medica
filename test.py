@@ -1,4 +1,3 @@
-import time
 import data
 from selenium import webdriver
 from methods import FormPage
@@ -6,7 +5,7 @@ from methods import FormPage
 
 class TestFormPage:
 
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.maximize_window()
 
     # 1 - Configurar Patologia
@@ -14,8 +13,8 @@ class TestFormPage:
         self.driver.get(data.URL)
         FormPage(self.driver).set_patologia()
 
-    # 2 - Configurar Prueba
-    '''def test_set_prueba(self):
+    '''# 2 - Configurar Prueba
+    def test_set_prueba(self):
         FormPage(self.driver).set_prueba()'''
 
     # 3 - Configurar Consentimiento
@@ -55,12 +54,13 @@ class TestFormPage:
         FormPage(self.driver).set_indicativo()
 
     # 12 - Rellenar Telefono
-    def set_telefono_1(self):
+    def test_telefono_1(self):
         FormPage(self.driver).set_telefono_1(data.telefono_1)
 
     # 13 - Dar clic en Enviar
     def test_boton_enviar(self):
         FormPage(self.driver).click_boton_enviar()
+
 
     # 14 - Cerrar navegador
     def test_cerrar_navegador(self):
